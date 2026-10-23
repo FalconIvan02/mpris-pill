@@ -3,7 +3,7 @@
 # mpris-pill — desinstalador
 # https://github.com/Falconivan02/mpris-pill
 #
-#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/uninstall.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/uninstall.sh | bash
 #   (o "bash uninstall.sh" desde un clon del repositorio)
 #
 # Qué hace:
