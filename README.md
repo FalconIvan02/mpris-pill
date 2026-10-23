@@ -30,7 +30,7 @@ Probado en: CachyOS (base Arch) con Omarchy, Hyprland con configuración en Lua,
 ### Con una línea
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/install.sh | bash
 ```
 
 El instalador:
@@ -45,7 +45,7 @@ No toca nada más. Es seguro ejecutarlo varias veces: no duplica el autostart ni
 **Opciones** (se pasan después de `bash -s --`):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/install.sh | bash -s -- --yes
+curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/install.sh | bash -s -- --yes
 ```
 
 | Opción | Efecto |
@@ -124,7 +124,7 @@ Fuera de Omarchy, donde no existe `~/.config/omarchy/current/theme/colors.toml`,
 ## Desinstalar
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/uninstall.sh | bash
 ```
 
 Cierra el widget, quita la línea de autostart (con copia de seguridad) y borra `~/.config/quickshell/mpris-pill/`. No desinstala `quickshell` ni `cava`, porque podrías usarlos para otras cosas.
