@@ -4,10 +4,10 @@
 # https://github.com/Falconivan02/mpris-pill
 #
 # Instalación en una línea:
-#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/install.sh | bash
 #
 # Con opciones (van después de "--"):
-#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.0/install.sh | bash -s -- --yes
+#   curl -fsSL https://raw.githubusercontent.com/Falconivan02/mpris-pill/v1.0.1/install.sh | bash -s -- --yes
 #
 # Desde un clon del repositorio (usa los archivos locales, sin descargar nada):
 #   git clone https://github.com/Falconivan02/mpris-pill && cd mpris-pill && bash install.sh
