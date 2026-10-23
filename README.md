@@ -66,7 +66,7 @@ less install.sh      # leelo
 bash install.sh     # usa los archivos locales, sin descargar nada
 ```
 
-Los comandos de una línea de este README apuntan a una **versión fija** (`v1.0.0`), así que el contenido no cambia sin que lo notes.
+Los comandos de una línea de este README apuntan a una **versión fija** (`v1.0.1`), así que el contenido no cambia sin que lo notes.
 
 ### Arranque automático manual
 
@@ -108,6 +108,7 @@ readonly property var pillPalette: [
     "#1e1e2e",  // 2
     "#12121b",  // 3
     "#2e3440"   // 4
+    "transparent" // 5 → solo se ven caratula barras y texto
 ]
 readonly property string themePillKey: "darker_background"
 ```
