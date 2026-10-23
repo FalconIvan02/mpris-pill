@@ -20,7 +20,7 @@
 
 set -euo pipefail
 
-VERSION="v1.0.0"
+VERSION="v1.0.1"
 REPO="${MPRIS_PILL_REPO:-Falconivan02/mpris-pill}"
 REF="${MPRIS_PILL_REF:-$VERSION}"
 BASE_URL="${MPRIS_PILL_BASE_URL:-https://raw.githubusercontent.com/$REPO/$REF}"
