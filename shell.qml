@@ -4,7 +4,7 @@
 //   - Aparece abajo al centro SOLO mientras Spotify está reproduciendo.
 //   - Compacta: carátula a la izquierda, ecualizador a la derecha.
 //   - Con el ratón encima: se agranda y muestra título, artista y controles.
-//   - Clic derecho sobre la cápsula: cambia su color (paleta de 5).
+//   - Clic derecho sobre la cápsula: cambia su color (paleta de 6; la última es invisible).
 //   - Barras y textos siguen siempre al tema activo de Omarchy.
 //
 // Archivos que usa (misma carpeta): cava.conf
@@ -29,7 +29,8 @@ ShellRoot {
         "#000000",  // 1 → Negro puro (iOS)
         "#1e1e2e",  // 2 → Catppuccin Mocha
         "#12121b",  // 3 → Azul-negro profundo
-        "#2e3440"   // 4 → Nord
+        "#2e3440",  // 4 → Nord
+        "transparent"  // 5 → INVISIBLE: solo se ven carátula, barras y textos
     ]
     property int currentPaletteIndex: 0
 
